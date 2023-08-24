@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gọi hàm cho sự kiện HTML</title>
+    <style>
+        body {
+            padding: 0;
+            background: #bbbbbb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            margin: 50px;
+        }
+
+        .container #hinh {
+            height: 400px;
+            width: 300px;
+            border-radius: 5px;
+            border: 2px solid #7027c4;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="hinh" src="img2.jpg" alt="" onmouseover="fover()" onmouseout="fout()">
+    </div>
+    <script>
+        function fover() {
+            var h = document.getElementById("hinh");
+            h.src = "./img1.jpg"
+        }
+
+        function fout() {
+            var h = document.getElementById("hinh");
+            h.src = "./img2.jpg"
+        }
+    </script>
+</body>
+
+</html>

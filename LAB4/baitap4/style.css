@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    background: #bbbbbb;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+button {
+    margin: 20px;
+    padding: 2px;
+    box-sizing: border-box;
+    background: #f7f464;
+}
+
+button:hover {
+    background: #eaf733;
+}

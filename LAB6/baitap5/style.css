@@ -1,0 +1,57 @@
+body {
+
+    padding: 0;
+    background: #f4ffb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 100px;
+    text-align: center;
+    height: 350px;
+    width: 450px;
+    background: #c2f8da;
+    color: rgb(3, 3, 3);
+    border: 2px solid #fff;
+    box-shadow: 20px 15px 25px -4px rgba(70, 57, 57, 0.24);
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#ketQua {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #483157;
+}

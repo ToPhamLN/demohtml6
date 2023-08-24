@@ -1,0 +1,54 @@
+body {
+
+    padding: 0;
+    background: #bbbbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    border: 1px solid darkgrey;
+}
+
+header {
+    background: darkolivegreen;
+    height: 120px;
+    position: relative;
+}
+
+header #dongho {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    margin: 15px;
+    color: aqua;
+    cursor: pointer;
+}
+
+main {
+    background: darkseagreen;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: greenyellow;
+}
+
+main button:hover {
+    background: green;
+}
+
+footer {
+    background: darkslategray;
+    height: 100px;
+}

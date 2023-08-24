@@ -1,0 +1,60 @@
+body {
+
+    padding: 0;
+    background: #bbbbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 100px;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    background: #4e4e4e;
+}
+
+
+
+h2 {
+
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0;
+    background: rgb(2, 117, 102);
+}
+
+
+
+#pt {
+    margin: 20px;
+    color: orange;
+}
+
+#kq {
+    margin: 60px;
+    color: yellow;
+}
+
+button {
+    position: absolute;
+    bottom: 5px;
+    left: 37%;
+    color: white;
+    background: #8b8b8b;
+
+}
+
+button:hover {
+    border: 1px solid #000000;
+    background: #5c5c5c;
+}
+
+button:active {
+    background: #4e4e4e;
+}
